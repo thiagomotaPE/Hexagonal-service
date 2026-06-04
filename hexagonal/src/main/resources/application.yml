@@ -1,10 +1,12 @@
+server:
+  port: 8081
+
 mota:
   client:
     address:
       url: http://localhost:8082/addresses
 
 spring:
-  data:
     mongodb:
       host: localhost
       port: 27017
